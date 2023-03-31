@@ -1,0 +1,14 @@
+.add-user {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.add-user Form {
+  width: 2000px;
+}
+
+.add-user h2 {
+  padding-left: 150px;
+}

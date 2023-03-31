@@ -1,0 +1,27 @@
+.sign-up-page {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(243, 200, 85);
+  padding: 30px;
+}
+
+.sign-up-page button {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .sign-up-page {
+    width: 220px;
+    height: 400px;
+    padding-left: 10px;
+  }
+  .sign-up-page h2 {
+    font-size: 15px;
+  }
+  .sign-up-page Form {
+    width: 150px;
+    padding-left: 10px;
+  }
+}
