@@ -1,0 +1,32 @@
+.container-data2 {
+  margin: 0 2rem 2rem 15rem;
+}
+
+.space-search {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .list-user Table {
+    font-size: 10px;
+  }
+
+  .list-user Table th {
+    width: 100px;
+  }
+
+  .list-user Button {
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .space-search {
+    margin-left: 110%;
+  }
+}
+
+
+

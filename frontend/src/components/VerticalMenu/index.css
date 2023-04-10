@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet';
+
+.menu {
+  height: 600px;
+  position: fixed;
+  background-color: #2a2b3d;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 0.925rem;
+}
+
+.menu ul li {
+  padding: 15px;
+}
+
+.menu ul li i {
+  margin: 15px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .menu {
+    width: 70px;
+    font-size: 10px;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+
+
+

@@ -1,0 +1,43 @@
+
+.sign-up-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(to right, #7d42b8, #4fb0bd);
+}
+
+.sign-up-page h2{
+  padding-left: 150px;
+  color: white;
+}
+
+.sign-up-form {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  width: 470px;
+}
+
+.sign-up-page button {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .sign-up-page {
+    width: 220px;
+    height: 400px;
+    padding-left: 10px;
+  }
+  .sign-up-page h2 {
+    font-size: 15px;
+  }
+  .sign-up-form {
+    width: 150px;
+    padding-left: 10px;
+  }
+}

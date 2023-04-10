@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,900|Montserrat|Roboto");
+.form-update {
+  border-style: none;
+  border-width: 1px;
+  border-color: unset;
+  opacity: 1;
+  border-radius: 8px;
+  position: relative;
+  padding: 1rem;
+  width: 800px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.form-update h1 {
+  color: #7ed386;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.form-update h2 {
+  color: #777777;
+  width: 50%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 2px;
+}
+
+.form-update input {
+  padding: 10px;
+}
